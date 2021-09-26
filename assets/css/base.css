@@ -1,0 +1,120 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --main-color: #9f224e;
+    --hover-color: #087cce;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    scroll-behavior: smooth;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    flex: 1;
+}
+
+.col-third {
+    width: 32.5%;
+}
+
+.grid {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+/* NÚt */
+.btn {
+    border: none;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 12px;
+}
+
+.btn--form {
+    background-color: #ececec;
+    color: #c6c6c6;
+    margin-top: 0.6rem;
+}
+
+.btn--form:hover {
+    background-color: var(--main-color);
+    color: var(--white-color);
+}
+
+/* hover */
+.container__heading-link:hover,
+.news__heading:hover,
+.author__link:hover,
+.container__nav-link:hover,
+.container__video-name a:hover,
+.box__video-heading:hover,
+.link__heading__black:hover,
+.box__content-heading:hover {
+    color: var(--hover-color);
+    cursor: pointer;
+}
+
+/* Comments */
+.comment {
+    margin-top: 0.8rem;
+}
+
+.comment__items {
+    font-size: 1.4rem;
+    color: #757575;
+    margin-right: 0.8rem;
+    font-family: sans-serif;
+}
+
+.comment__link {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.comment__icon {
+    color: #dbdbdb;
+}
+
+.comment__icon:hover {
+    color: #757575;
+    cursor: pointer;
+}
+
+.comment__link span{
+    margin-left: 0.4rem;
+    color: #076db6;
+}
+
+/* Back */
+.back {
+    font-size: 2.4rem;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    padding: 7px 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.back__icon {
+    color: #757575;
+}
+
+a{
+    text-decoration: none;
+}
