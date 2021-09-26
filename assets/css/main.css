@@ -1,0 +1,982 @@
+/* Đào Anh Quân */
+/* Đào Anh Quân */
+.header {
+}
+
+.header__top {
+    padding: 0.85rem 1.5rem;
+    height: 5.1rem;
+}
+
+.header__top-items {
+    align-items: center;
+}
+
+.header__top-img {
+    vertical-align: middle;
+}
+
+.header__top-heading {
+    font-size: 1.4rem;
+    color: #757575;
+    margin-left: 2rem;
+    padding: 0.4rem 0 0.4rem 1.5rem;
+    font-family: sans-serif;
+    border-left: 1px solid #e5e5e5;
+}
+
+.header__items {
+    display: inline-block;
+}
+
+.header__svg {
+    width: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.header__items{
+}
+
+.header__items-link {
+    height: 32px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #757575;
+    display: inline-block;
+    margin-right: 1.2rem;
+} 
+
+.header__logo-link {
+    border: 1px solid #e5e5e5;
+    height: 32px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #757575;
+    display: inline-block;
+}
+
+.header__items--search {
+    position: relative;
+    margin-left: 1.5rem;
+    padding-left: 1.5rem;
+    border-left: 1px solid #e5e5e5;
+}
+
+.form__controls {
+    height: 32px;
+    line-height: 32px;
+    border-radius: 16px;
+    border: 1px solid #e5e5e5;
+    padding: 0 30px 0 14px;
+    margin: 0;
+}
+
+.search  {
+    background: none;
+    position: absolute;
+    right: 180px;
+    border: none;
+    padding: 8px;
+    right: 0;
+}
+
+.header__items--login {
+    margin-left: 1.3rem;
+}
+
+.header__items-icon{
+    fill: #bdbdbd;
+}
+
+.fa-home{
+    padding: 0px 4px;
+}
+
+.btn--login {
+    color: #4f4f4f;
+    font-size: 13px;
+    margin-left: 0.5rem;
+}
+
+.btn:hover{
+    color:#087CCE;
+}
+
+.fa-user{
+    color: #bdbdbd;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.fa-search{
+    color: #bdbdbd;
+    font-size: 1.6rem;
+}   
+.main_list {
+    border: 1px solid #E5E5E5;
+    font-size: 14px;
+}
+.list {
+    font-weight: bold;
+    font-size: small;
+    padding: 10.5px;
+}
+.main_list li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 2px 5px 2px;
+    margin-right: 8px;
+    
+    
+}
+
+.all {
+    color: #bdbdbd;
+}
+
+.all:hover,
+.hoi:hover {
+    color: var(--main-color);
+}
+.heo:hover {
+    color: #ad9634;
+}
+.lon:hover{
+    color: rgb(189, 50, 50);
+}
+
+.sport:hover {
+    color: #5fae2e;
+}
+
+.pig:hover {
+    color:#eb7600;
+}
+
+.healthy:hover {
+    color: #049b93;
+}
+
+.doisong:hover {
+    color: #309fc0;
+}
+
+.home {
+    background-color:silver ;
+    border: 1px  ;
+    border-radius: 50%;
+    
+}
+
+.home__icon {
+    color: #757575;
+}
+
+.home:hover {
+    background-color: var(--main-color);
+} 
+
+.home:hover .home__icon {
+    color: var(--white-color);
+
+}
+
+
+/* Nguyễn Tuấn Anh */
+.container {
+    padding-top: 2rem;
+}
+
+.container__items {
+    max-width: 113rem;
+    padding: 0 1.5rem 0.4rem 1.5rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container__items--line::before {
+    width: calc(100% - 30px);
+    background: #e5e5e5;
+    height: 1px;
+    position: absolute;
+    top: 100%;
+    left: 15px;
+    content: '';
+}
+
+.container__items-left {
+    width: 78rem;
+}
+
+.container__items-top {
+    margin-bottom: 2rem;
+    background-color: #f7f7f7;
+}
+
+.container__items-photo {
+    width: 52rem;
+}
+
+.container__items-img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.container__items-content {
+    padding: 2rem 2rem 0 2rem;
+}
+
+.container__heading-link {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+/* content-bottom */
+.container__items-bottom {
+    margin-left: -2rem;
+}
+
+.new__items {
+    padding-left: 2rem;
+}
+
+.news__opinion-text {
+    margin-bottom: 0.5rem;
+}
+
+.news__opinion {
+    font-size: 1.4rem;
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: bold;
+} 
+
+.news__heading {
+    display: block;
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+}
+
+.new__paragraph {
+    margin-top: 1rem;
+}
+
+.news__text {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.new__items--pl-4 {
+    padding-left: 4rem;
+}
+
+.new__items--separate {
+    position: relative;
+}
+
+.new__items--separate::before {
+    top: 0;
+    left: 1.9rem;
+    width: 0.2rem;
+    height: 100%;
+    content: '';
+    position: absolute;
+    background: #e5e5e5;
+}
+
+/* Author */
+.author {
+    align-items: center;
+}
+
+.author__name {
+    font-size: 1.4rem;
+    font-style: italic;
+    font-weight: 400;
+    margin: 1.5rem 0 0.4rem 0;
+}
+
+.author__link,
+.author__link-img {
+    color: #757575;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.author__img {
+    width: 5.6rem;
+    border-radius: 50%;
+}
+
+/* Asside */
+.asside {
+    padding-left: 2rem;
+    height: 500px;
+}
+
+.asside__link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.asside__img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* Video */
+.container__items--video {
+    margin: 2rem auto 0 auto;
+    height: 53.9rem;
+    background-color: #fcfaf6;
+    border: 1px solid #f0eeea;
+}
+
+.container__header {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.container__nav-items {
+    display: inline-block;
+}
+
+.container__nav-items--separate {
+    border-bottom: 1px solid #9f224e;
+    padding-bottom: 0.6rem;
+}
+
+.container__nav-link {
+    text-decoration: none;
+    color: #4f4f4f;
+    font-size: 1.3rem;
+    margin: 0.5rem 0 0 2rem;
+}
+
+.container__nav-link-heading {
+    font-size: 1.8rem;
+    color: #222222;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.container__nav-link-heading:hover {
+    color: #9f224e;
+} 
+
+.container__logo-link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #757575;
+}
+
+.logo__svg {
+    width: 64px;
+    padding-left: 0.8rem;
+}
+
+.container__video {
+    width: 72rem;
+}
+
+.container__video-link {
+    margin-bottom: 1.5rem;
+}
+
+.container__video-name {
+    margin-right: 0.6rem;
+}
+
+.container__video-name a {
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #222222;
+    text-decoration: none;
+}
+
+/* Side bar */
+.container__sidebar {
+    padding: 0 1.5rem 0 2rem ;
+    height: 45.8rem;
+    overflow: auto;
+    margin-top: -1.5rem;
+    list-style-type: none;
+}
+
+.side-bar__items {
+    padding: 1.5rem 0 0.9rem 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Newspaper */
+.newspaper {
+    margin: 4rem -2rem 0 -2rem;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.newspaper__items {
+    width: 38rem;
+    padding: 0 2rem;
+}
+
+.newspaper__items--line {
+    border-right: 1px solid #e5e5e5;
+}
+
+.container__items--line-2::before {
+    top: -3.8%;
+    left: 15px;
+    content: '';
+    height: 1px;
+    position: absolute;
+    background: #e5e5e5;
+    width: calc(100% - 30px);
+}
+
+.newspaper__picture {
+    margin: 1.6rem 0 0.5rem 0;
+}
+
+.newspaper__img {
+    width: 100%;
+}
+
+.new__items--newspaper {
+    padding-left: 0;
+}
+
+.new__items--newspaper-2 {
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.new__items--newspaper-2 {
+    border-top: 1px solid #e5e5e5;
+}
+
+/* Nguyễn Minh Đức */
+.session4 {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e5e5e5;
+}
+
+.session4__news {
+    margin-top: 2rem;
+}
+
+.session__news-left {
+    width: 52rem;
+    padding-right: 2rem;
+    margin-right: 2rem;
+    border-right: 1px solid #e5e5e5;
+   
+} 
+
+.session__news-left video{
+    width: 50rem;
+    height: 30rem;
+} 
+
+.box__video{
+    width: 50rem;
+    height: 38.6rem;
+}
+
+.box__video-heading {
+    margin-bottom: 0.4rem;
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    color: #222222;
+}
+
+.session__news-left a{
+    font-size: 1.5rem;
+    color: #222222;
+    line-height: 2.1rem;
+}
+
+.session__news-center {
+    width: 26rem;
+    padding-right: 2rem;
+    margin-right: 2rem;
+    border-right: 1px solid #e5e5e5;
+}
+
+.session__news-right {
+    width: 24rem;
+    height: 43.5rem;
+}
+
+.mid__session4{
+    width: 24rem;
+    height: 20.2rem;
+    
+}
+
+.mid__session4--line {
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.mid__session4--inline {
+    width: 100%;
+    height: 1px;
+    background-color: #e5e5e5;
+    position: absolute;
+    top: 106%;
+}
+
+.mid__session4 img{
+    width: 100%;
+    margin-bottom: 0.6rem;
+}
+
+.mid__session4 video{
+    width: 24rem;
+    height: 14.4rem;
+    margin-bottom: 1rem;
+}
+
+.session__news-right{
+    
+}
+
+.box__phia{
+    display: flex;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box__phia--end {
+    border: none;
+}
+
+.box__phia img{
+    width: 10rem;
+    height: 6rem;
+}
+.box__phia a{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: #222222;
+    margin-right: 1rem;
+}
+
+.black{
+    width: 113rem;
+    height: 54.3rem;
+    margin: 0 auto;
+    margin-top: 1.4rem;
+    padding: 0 1.5rem;
+    position: relative;
+    
+}
+
+.black::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: calc( 100% - 30px);
+    background-color: #e5e5e5;
+    position: absolute;
+    top: 0.4%;
+}
+
+.link__black{
+    display: inline-block;
+    margin-bottom: 1.4rem;
+    padding: 2.3rem 0px 0.6rem 0px;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.form__black{
+    display: flex;
+}
+
+.img__black{
+    position: relative;
+}
+
+.img__black img{
+    width: 80rem;
+    height: 48rem;
+}
+
+.box__black{
+    height: 24rem;
+    background-color: #17191a;
+    padding: 2.5rem;
+}
+
+.box__sex {
+    background-color: #222;
+}
+
+.box__black a{
+    color: #bdbdbd;
+}
+
+.link__heading__black{
+    font-size: 1.8rem;
+    line-height: 2.88rem;
+}
+.paragrap__black{
+    font-size: 1.4rem;
+    line-height: 1.96rem;
+}
+.box__black a{
+    padding: 0 0 1rem;
+}
+.link__heading__black{
+    /* margin-bottom: 2rem; */
+}
+.box__black h3{
+    margin-bottom: 1rem;
+}
+.box__black p{
+    margin-bottom: 1rem;
+}
+.link__box__black:hover{
+    color: aqua;
+}
+.fa-chevron-up{
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #757575;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.fa-chevron-up:hover{
+    background-color: #076db6;
+    color: white;
+}
+.fa-chevron-down{
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #757575;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.fa-chevron-down:hover{
+    background-color:#076db6;
+    color: white;
+}
+.icon{
+    position: absolute;
+    top: 41rem;
+    right: 0;
+}
+.session5{
+    width: 113rem;
+    height: 112.1rem;
+    margin: 0 auto;
+    margin-top: 1.4rem;
+    position: relative;
+    padding: 0 1.5rem;
+}
+
+.session5::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: calc(100% - 30px);
+    background-color: #e5e5e5;
+    position: absolute;
+    top: 2.5px;
+}
+
+.session5::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: calc(100% - 30px);
+    background-color: #e5e5e5;
+    position: absolute;
+    top: 85.8%;
+}
+
+.tong__session5{
+    display: flex;
+}
+
+.left__session5{
+    padding-right: 2rem;
+    width: 74rem;
+    border-right: 1px solid #e5e5e5;
+}
+
+.right__session5{
+    width: 36rem;
+    padding: 0 0 0 2rem;
+}
+
+.box__session5{
+    display: flex;
+    margin-bottom: 3rem ;
+    width: 74rem;
+    padding-right: 2rem;
+}
+
+.box1__session5{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.24rem;
+    padding-right: 2rem;
+}
+
+.box1__session5 img{
+    width: 35rem;
+    height: 21rem;
+}
+
+.enven__session5{
+    width: 72rem;
+    height: 21rem;
+    margin: 0 0 2rem;
+    background-color: #f7f7f7;
+    border: 1px solid  #e5e5e5;
+    padding: 1.5rem;
+}
+.conten__enven{
+    display: flex;
+    justify-content:space-between;
+}
+.conten__enven span{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    border-bottom: 1px solid red;
+}
+.icon__enven i{
+    font-size: 1.4rem;
+    line-height: 2rem; 
+}
+.fa-chevron-left{
+    color:#bdbdbd ;
+}
+.fa-chevron-right{
+    color: #222222;
+}
+.form__chuabietdatten{
+    display: flex;
+}
+
+.form__enven--right {
+    margin-left: 2.5rem;
+}
+
+.box__enven{
+    display: flex;
+    width: 33.4rem;
+    height: 6rem;
+    margin: 1rem 0 2rem 0;
+}
+.box__enven img{
+    width: 10rem;
+    height: 6rem;
+    margin-right: 1rem;
+}
+
+.xemnhieu{
+    width: 72rem;
+    height: 33.7rem;
+    margin: 0 0 2rem;
+}
+.heading__xemnhieu{
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 2.5rem;
+}
+
+.heading__xemnhieu a{
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+    color: #222;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--main-color);
+}
+
+.form__xemnhieu {
+    margin-left: -3rem;
+    position: relative;
+}
+
+.form__xemnhieu::before {
+    width: 1px;
+    content: "";
+    height: 100%;
+    background-color: #e5e5e5;
+    position: absolute;
+    left: 51%;
+}
+
+.box__xemnhieu {
+    list-style-type: none;
+    padding-right: 15px;
+    position: relative;
+    margin-bottom: 1.8rem;
+}
+
+.box__xemnhieu li {
+    width: 360px;
+}
+
+.box__xemnhieu--inline::before {
+    content: "";
+    height: 1px;
+    width: calc(100% - 30px);
+    background-color: #e5e5e5;
+    position: absolute;
+    top: 66px;
+    left: 30px;
+}
+
+.box__xemnhieu li{
+    display: flex;
+    height: 6.4rem;
+}
+
+.box__xemnhieu li span{
+    font-size: 4.8rem;
+    color: #222;
+    line-height: 4.6rem;
+    font-family: sans-serif;
+    padding-left: 3rem;
+}
+
+.box__xemnhieu li a{
+    padding: 0 0 1.5rem 2.3rem;
+}
+
+.rigth__session5{
+    width: 39rem;
+    height: 110.1rem;
+    padding-left: 2rem;
+}
+
+/* Form */
+.form__list {
+    list-style-type: none;
+    margin-top: 1.4rem;
+}
+
+.form__items {
+    border: 1px solid #e5e5e5;
+    padding: 8.5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.form__checkbox {
+    width: 12px;
+}
+
+.form__label {
+    font-size: 1.4rem;
+    margin-left: 1.4rem;
+}
+
+.thamdoykiem{
+    width: 34rem;
+    padding: 15px;
+    background-color: #f7f7f7;
+    border: 1px solid #e5e5e5;
+}
+
+.heading__title{
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    text-align: left;
+    margin-bottom: 1.4rem;
+    color: #222222;
+    border-bottom: 1px solid var(--main-color);
+    display: inline-block;
+    padding-bottom: 0.3rem;
+}
+.contenr__thamdo h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    text-align: left;
+    color: #222222;
+    margin: 0 0 1rem;
+
+}
+.contenr__thamdo p{
+    font-size: 1.3rem;
+    line-height: 20px;
+
+}
+
+.taitro{
+    width: 34rem;
+    background-color: #f7f7f7;
+    margin-top: 2rem;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    border: 1px solid #e5e5e5;
+}
+
+.heding__taitro h3{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: #222222;
+    border-bottom: 1px solid red;
+    width: 8rem;
+    margin-bottom: 2rem;
+}
+
+.box__content-taitro{
+    width: 30.8rem;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.box__content-img {
+    width: 10rem;
+    height: 6rem;
+    margin-right: 1.4rem;
+}
+
+.box__content-taitro img{
+    width: 10rem;
+    height: 6rem;
+
+} 
+
+.box__content-heading{
+    font-size: 1.4rem;
+    color: #222222;
+    line-height: 2rem;
+}
+
+/* Phạm Văn Trọng */
+.slider {
+    width: 352px;
+}
